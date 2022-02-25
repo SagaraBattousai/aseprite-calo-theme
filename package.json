@@ -1,0 +1,35 @@
+{
+  "name" : "calo-theme",
+  "displayName": "Calo Default Theme",
+  "description": "Default Calo Pixel-Art Themes",
+  "version": "0.1.0",
+  "author": { 
+    "name": "James Calo",
+    "email": "jamesafcalo@gmail.com", 
+    "url": "http://jamescalo.com/" 
+  },
+  "attribution": {
+    "originalName": "aseprite-theme",
+    "originalDisplayName": "Aseprite Default Theme",
+    "originalAuthor": { 
+      "name": "David Capello", 
+      "email": "david@igarastudio.com", 
+      "url": "http://davidcapello.com/" 
+    },
+    "contributors": [
+      { "name": "Ilija Melentijevic", "url": "http://ilkke.blogspot.com/" },
+      { "name": "Nicolas Desilets", "url": "https://twitter.com/MapleGecko" }
+    ],
+    "originalPublisher": "aseprite"
+  },
+  "license": "CC-BY-4.0",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      { "id": "default", "path": ".", "variant": "Light" },
+      { "id": "default-dark", "path": "./dark", "variant": "Dark" }
+    ]
+  }
+}
